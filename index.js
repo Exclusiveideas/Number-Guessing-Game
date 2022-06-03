@@ -28,7 +28,6 @@ while (guessNum == genNum) {
   // setCookie("points", points);
   generateNum();
 
-  console.log('me >', genNum);
   console.log(`Stage ${stage},  Points: ${points}`)
   guessNum = prompt(`Please take a guess between 1 and ${max}: `);
 }
